@@ -1,0 +1,11 @@
+{
+  "title": "Bem vindo a utilização do React i18n totalmente tipado",
+  "description": {
+    "part1": "Esse é um simples exemplo.",
+    "part2": "😊"
+  },
+  "incrementCounter": "Incrementar contador",
+  "userMessagesUnread_zero": "Você não tem nenhuma mensagem não lida.",
+  "userMessagesUnread_one": "Você tem {{count}} mensagem não lida.",
+  "userMessagesUnread_other": "Você tem {{count}} mensagens não lidas."
+}
