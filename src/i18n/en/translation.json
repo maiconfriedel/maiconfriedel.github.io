@@ -1,11 +1,8 @@
 {
-  "title": "Welcome to react using react-i18next fully type-safe",
+  "title": "Fullstack Developer",
   "description": {
-    "part1": "This is a simple example.",
-    "part2": "😉"
-  },
-  "incrementCounter": "Increment counter",
-  "userMessagesUnread_zero": "You have no unread messages.",
-  "userMessagesUnread_one": "You have {{count}} unread message.",
-  "userMessagesUnread_other": "You have {{count}} unread messages."
+    "part1": "I'm a 27-year-old fullstack developer from Brazil with lot of experience in C# and the .NET platform, as well as front-end development using React.",
+    "part2": "I enjoy exploring new technologies, and I like Node.js with TypeScript",
+    "part3": "I'm also interested in the world of data science, particularly with Python, Pandas, and Apache Airflow. But I'm just getting started on this journey."
+  }
 }

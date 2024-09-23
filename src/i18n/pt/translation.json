@@ -1,11 +1,8 @@
 {
-  "title": "Bem vindo a utilização do React i18n totalmente tipado",
+  "title": "Desenvolvedor Fullstack",
   "description": {
-    "part1": "Esse é um simples exemplo.",
-    "part2": "😊"
-  },
-  "incrementCounter": "Incrementar contador",
-  "userMessagesUnread_zero": "Você não tem nenhuma mensagem não lida.",
-  "userMessagesUnread_one": "Você tem {{count}} mensagem não lida.",
-  "userMessagesUnread_other": "Você tem {{count}} mensagens não lidas."
+    "part1": "Sou um desenvolvedor fullstack, 27 anos de idade, com muita experiência em C# e na plataforma .NET, além de desenvolvimento front-end usando React.",
+    "part2": "Gosto de explorar novas tecnologias e tenho um grande interesse em Node.js com TypeScript.",
+    "part3": "Também estou interessado no mundo da ciência de dados, especialmente com Python, Pandas e Apache Airflow. Mas estou apenas começando essa jornada."
+  }
 }
