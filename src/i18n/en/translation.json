@@ -1,15 +1,18 @@
 {
   "title": "Fullstack Developer",
   "description": {
-    "part1": "I'm a 27-year-old fullstack developer from Brazil with lot of experience in C# and the .NET platform, as well as front-end development using React.",
-    "part2": "I have a lot of experience in developing integrations between systems, using REST APIs, the .NET Core platform, and Microsoft SQL Server.",
-    "part3": "I enjoy exploring new technologies, and I like Node.js with TypeScript a lot.",
-    "part4": "I'm also interested in the world of data science, particularly with Python, Pandas, and Apache Airflow. But I'm just getting started on this journey."
+    "name": "Hi, I'm Maicon Friedel!",
+    "part1": "I'm a fullstack developer since 2018, with a lot of experience in C# with the .NET platform, as well as front-end development using React.",
+    "part2": "I've participated in the development of many integrations with different systems, using REST APIs, C# with .NET and Microsoft SQL Server.",
+    "part3": "I enjoy exploring new technologies and have a great interest in Node.js with TypeScript.",
+    "part4": "I'm also interested in the world of data science, particularly with Python, Pandas, and Apache Airflow. But I'm just getting started on this journey.",
+    "part5": "You can find my skills and projects in the respective tabs above."
   },
   "header": {
     "home": "Home",
     "skills": "Skills",
-    "projects": "Projects"
+    "projects": "Projects",
+    "about_me": "About me"
   },
   "under_construction": "Under construction..."
 }

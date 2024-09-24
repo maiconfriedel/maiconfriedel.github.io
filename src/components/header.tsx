@@ -10,6 +10,12 @@ export const Header = () => {
         <Link to="/" className="[&.active]:font-bold [&.active]:text-xl">
           {t("header.home")}
         </Link>
+        <Link
+          to="/about-me"
+          className="[&.active]:font-bold [&.active]:text-xl"
+        >
+          {t("header.about_me")}
+        </Link>
         <Link to="/skills" className="[&.active]:font-bold [&.active]:text-xl">
           {t("header.skills")}
         </Link>

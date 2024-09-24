@@ -13,6 +13,7 @@
 import { Route as rootRoute } from './routes/__root'
 import { Route as SkillsImport } from './routes/skills'
 import { Route as ProjectsImport } from './routes/projects'
+import { Route as AboutMeImport } from './routes/about-me'
 import { Route as IndexImport } from './routes/index'
 
 // Create/Update Routes
@@ -24,6 +25,11 @@ const SkillsRoute = SkillsImport.update({
 
 const ProjectsRoute = ProjectsImport.update({
   path: '/projects',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const AboutMeRoute = AboutMeImport.update({
+  path: '/about-me',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -41,6 +47,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexImport
+      parentRoute: typeof rootRoute
+    }
+    '/about-me': {
+      id: '/about-me'
+      path: '/about-me'
+      fullPath: '/about-me'
+      preLoaderRoute: typeof AboutMeImport
       parentRoute: typeof rootRoute
     }
     '/projects': {
@@ -64,12 +77,14 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about-me': typeof AboutMeRoute
   '/projects': typeof ProjectsRoute
   '/skills': typeof SkillsRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about-me': typeof AboutMeRoute
   '/projects': typeof ProjectsRoute
   '/skills': typeof SkillsRoute
 }
@@ -77,27 +92,30 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
+  '/about-me': typeof AboutMeRoute
   '/projects': typeof ProjectsRoute
   '/skills': typeof SkillsRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/projects' | '/skills'
+  fullPaths: '/' | '/about-me' | '/projects' | '/skills'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/projects' | '/skills'
-  id: '__root__' | '/' | '/projects' | '/skills'
+  to: '/' | '/about-me' | '/projects' | '/skills'
+  id: '__root__' | '/' | '/about-me' | '/projects' | '/skills'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutMeRoute: typeof AboutMeRoute
   ProjectsRoute: typeof ProjectsRoute
   SkillsRoute: typeof SkillsRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutMeRoute: AboutMeRoute,
   ProjectsRoute: ProjectsRoute,
   SkillsRoute: SkillsRoute,
 }
@@ -115,12 +133,16 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
+        "/about-me",
         "/projects",
         "/skills"
       ]
     },
     "/": {
       "filePath": "index.tsx"
+    },
+    "/about-me": {
+      "filePath": "about-me.tsx"
     },
     "/projects": {
       "filePath": "projects.tsx"

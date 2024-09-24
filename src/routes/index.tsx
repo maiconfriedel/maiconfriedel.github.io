@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { FaGithub } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
@@ -14,8 +14,10 @@ const Index = () => {
         alt="avatar"
         className="w-60 h-60 rounded-full"
       />
-      <h1 className="text-5xl font-bold mt-2">Maicon Friedel</h1>
-      <p className="text-xl">{t("title")}</p>
+      <Link to="/about-me">
+        <h1 className="text-5xl font-bold mt-2">Maicon Friedel</h1>
+      </Link>
+      <p className="text-xl mt-2">{t("title")}</p>
       <div className="flex flex-row mt-2 items-center justify-center gap-4">
         <a
           href="https://linkedin.com/in/maicon-gabriel-friedel-882059173"
@@ -41,12 +43,6 @@ const Index = () => {
             className="cursor-pointer mt-[2px] transition ease-in-out hover:scale-125"
           />
         </a>
-      </div>
-      <div className="flex mt-6 flex-col max-w-[700px] items-center justify-center text-center gap-2 text-sm">
-        <p>{t("description.part1")}</p>
-        <p>{t("description.part2")}</p>
-        <p>{t("description.part3")}</p>
-        <p>{t("description.part4")}</p>
       </div>
     </div>
   );
