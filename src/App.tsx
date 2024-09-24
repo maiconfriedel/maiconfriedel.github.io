@@ -64,6 +64,7 @@ function App() {
           <p>{t("description.part1")}</p>
           <p>{t("description.part2")}</p>
           <p>{t("description.part3")}</p>
+          <p>{t("description.part4")}</p>
         </div>
       </div>
     </div>

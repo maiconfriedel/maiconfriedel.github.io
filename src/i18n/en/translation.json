@@ -2,7 +2,8 @@
   "title": "Fullstack Developer",
   "description": {
     "part1": "I'm a 27-year-old fullstack developer from Brazil with lot of experience in C# and the .NET platform, as well as front-end development using React.",
-    "part2": "I enjoy exploring new technologies, and I like Node.js with TypeScript",
-    "part3": "I'm also interested in the world of data science, particularly with Python, Pandas, and Apache Airflow. But I'm just getting started on this journey."
+    "part2": "I have a lot of experience in developing integrations between systems, using REST APIs, the .NET Core platform, and Microsoft SQL Server.",
+    "part3": "I enjoy exploring new technologies, and I like Node.js with TypeScript a lot.",
+    "part4": "I'm also interested in the world of data science, particularly with Python, Pandas, and Apache Airflow. But I'm just getting started on this journey."
   }
 }
