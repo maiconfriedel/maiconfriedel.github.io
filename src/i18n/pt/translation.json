@@ -5,5 +5,11 @@
     "part2": "Tenho muita experiência em desenvolvimento de integrações entre sistemas, com utilização de API's REST, plataforma .NET Core e Microsoft SQL Server.",
     "part3": "Gosto de explorar novas tecnologias e tenho um grande interesse em Node.js com TypeScript.",
     "part4": "Também estou interessado no mundo da ciência de dados, especialmente com Python, Pandas e Apache Airflow. Mas estou apenas começando essa jornada."
-  }
+  },
+  "header": {
+    "home": "Início",
+    "skills": "Habilidades",
+    "projects": "Projetos"
+  },
+  "under_construction": "Em construção..."
 }
