@@ -6,7 +6,7 @@ export const Header = () => {
 
   return (
     <div className="sticky top-0 text-white flex flex-row justify-between items-baseline p-3">
-      <div className="flex flex-row items-baseline gap-3">
+      <div className="flex flex-row items-baseline gap-2">
         <Link to="/" className="[&.active]:font-bold [&.active]:text-xl">
           {t("header.home")}
         </Link>

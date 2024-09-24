@@ -5,7 +5,7 @@ const AboutMe = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col h-[85%] items-center justify-center text-white px-6">
+    <div className="flex flex-col h-[85%] items-center justify-center text-white px-6 text-center">
       <img
         src="https://github.com/maiconfriedel.png"
         alt="avatar"
