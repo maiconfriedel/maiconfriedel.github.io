@@ -1,12 +1,12 @@
 {
-  "title": "Desenvolvedor Fullstack",
+  "title": "Tech Lead",
   "description": {
     "name": "Oi, eu sou Maicon Friedel!",
-    "part1": "Sou um desenvolvedor fullstack desde 2018, com muita experiência em C# na plataforma .NET, além de desenvolvimento front-end usando React.",
-    "part2": "Participei do desenvolvimento de várias integrações entre sistemas variados, com utilização de API's REST, C# com .NET e Microsoft SQL Server.",
-    "part3": "Gosto de explorar novas tecnologias e tenho um grande interesse em Node.js com TypeScript.",
-    "part4": "Também estou interessado no mundo da ciência de dados, especialmente com Python, Pandas e Apache Airflow. Mas estou apenas começando essa jornada.",
-    "part5": "Você pode encontrar minhas habilidades e meus projetos nas respectivas abas acima."
+    "part1": "Sou desenvolvedor fullstack desde 2018, com sólida experiência em C# e .NET, além de desenvolvimento front-end com React.",
+    "part2": "Ao longo da minha trajetória, participei do desenvolvimento de integrações entre diversos sistemas, utilizando APIs REST, C#/.NET e Microsoft SQL Server, sempre focando em soluções eficientes e escaláveis.",
+    "part3": "Tenho grande interesse em explorar novas tecnologias e venho me aprofundando em Node.js com TypeScript, ampliando minha stack de desenvolvimento.",
+    "part4": "Desde julho de 2025, assumi o desafio de atuar como Tech Lead, liderando uma equipe de desenvolvimento. Essa experiência tem sido fundamental para meu crescimento profissional, fortalecendo minhas habilidades de liderança, colaboração e visão estratégica.",
+    "part5": "➡️ Aqui no portfólio, você pode conferir minhas habilidades técnicas e os projetos que desenvolvi."
   },
   "header": {
     "home": "Início",

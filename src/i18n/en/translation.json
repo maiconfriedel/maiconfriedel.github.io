@@ -1,12 +1,12 @@
 {
-  "title": "Fullstack Developer",
+  "title": "Tech Lead",
   "description": {
     "name": "Hi, I'm Maicon Friedel!",
-    "part1": "I'm a fullstack developer since 2018, with a lot of experience in C# with the .NET platform, as well as front-end development using React.",
-    "part2": "I've participated in the development of many integrations with different systems, using REST APIs, C# with .NET and Microsoft SQL Server.",
-    "part3": "I enjoy exploring new technologies and have a great interest in Node.js with TypeScript.",
-    "part4": "I'm also interested in the world of data science, particularly with Python, Pandas, and Apache Airflow. But I'm just getting started on this journey.",
-    "part5": "You can find my skills and projects in the respective tabs above."
+    "part1": "I've been working as a fullstack developer since 2018, with solid experience in C# and .NET, as well as front-end development with React.",
+    "part2": "Throughout my career, I've contributed to the development of system integrations, leveraging REST APIs, C#/.NET, and Microsoft SQL Server, always aiming to deliver efficient and scalable solutions.",
+    "part3": "I'm passionate about exploring new technologies and have been deepening my knowledge in Node.js with TypeScript, expanding my development stack.",
+    "part4": "Since July 2025, I've taken on the challenge of working as a Tech Lead, leading a development team. This role has been an incredible opportunity for professional growth, strengthening my skills in leadership, collaboration, and strategic thinking.",
+    "part5": "➡️ In this portfolio, you can explore my technical skills and the projects I've worked on."
   },
   "header": {
     "home": "Home",
